@@ -23,9 +23,20 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Deploying to GitHub Pages
-
+<blockquote>
+    <legend>Addon - What works for me</legend>
+    <i>First create a local branch named 'gh-pages'</i>
+    <p>$git branch gh-pages</p>
+    <i>then Run `ng github-pages:deploy`</i>
+</blockquote>
 Run `ng github-pages:deploy` to deploy to GitHub Pages.
 
 ## Further help
 
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+<ul>
+    <li><a href="https://github.com/angular/angularfire2">The official Angular 2 library for Firebase.</a></li>
+    <li><a href="https://material.angular.io/">The official Angular Material website.</a></li>
+    <li><a href="https://firebase.google.com/">The official Google Firebase website.</a></li>
+</ul>
