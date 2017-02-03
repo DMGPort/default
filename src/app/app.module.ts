@@ -7,6 +7,13 @@ import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 
+export const firebaseConfig = {
+      apiKey: " apiKey here ",
+      authDomain: "yourprojectname-xxxxx.firebaseapp.com",
+      databaseURL: "https://yourprojectname-xxxx.firebaseio.com/",
+      storageBucket: ""
+}
+
 @NgModule({
   declarations: [
     AppComponent
@@ -15,12 +22,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    AngularFireModule.initializeApp({
-      apiKey: " apiKey here ",
-      authDomain: "yourprojectname-xxxxx.firebaseapp.com",
-      databaseURL: "https://yourprojectname-xxxx.firebaseio.com/",
-      storageBucket: ""
-    }),
+    AngularFireModule.initializeApp(firebaseConfig),
     MaterialModule.forRoot(),
   ],
   providers: [],
