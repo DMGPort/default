@@ -29,7 +29,7 @@ Run `ng github-pages:deploy` to deploy to GitHub Pages.
     <legend>Addon - What works for me</legend><br />
     <i>First create a local branch named 'gh-pages'</i>
     <p>$git branch gh-pages</p>
-    <i>then Run `ng github-pages:deploy`</i>
+    <i>then Run `ng gh-pages:deploy`</i>
 </blockquote>
 
 ## Further help
